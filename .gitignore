@@ -24,3 +24,13 @@ hs_err_pid*
 
 # MacOS rubbish :(
 .DS_Store
+
+#.idea
+.idea
+
+#cmake-temp
+cmake-build-debug
+build
+
+#vscode
+.vscode
