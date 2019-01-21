@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Window">
+  <grid id="27dc6" binding="panel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="642" height="595"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="7b2bd" binding="tabbedPane">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="fa71a" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <tabbedpane title="查找站点所属路线"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="30274" layout-manager="GridBagLayout">
+                <constraints border-constraint="West"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="2e366" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0" ipady="20"/>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                      <text value="请输入要查询的站点名"/>
+                    </properties>
+                  </component>
+                  <component id="fb042" class="javax.swing.JButton" binding="btnQueryP1">
+                    <constraints>
+                      <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0" ipady="20"/>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                      <text value="查询"/>
+                    </properties>
+                  </component>
+                  <vspacer id="a8d7f">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="1.0"/>
+                    </constraints>
+                  </vspacer>
+                  <vspacer id="a53a7">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="1.0"/>
+                    </constraints>
+                  </vspacer>
+                  <vspacer id="ee709">
+                    <constraints>
+                      <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="1.0"/>
+                    </constraints>
+                  </vspacer>
+                  <hspacer id="5c68c">
+                    <constraints>
+                      <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0" ipadx="20"/>
+                    </constraints>
+                  </hspacer>
+                  <hspacer id="43af9">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0" ipadx="20"/>
+                    </constraints>
+                  </hspacer>
+                  <component id="90251" class="javax.swing.JTextField" binding="textStation">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0" ipady="20"/>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                    </properties>
+                  </component>
+                  <component id="8d0a4" class="javax.swing.JButton" binding="btnClearP1">
+                    <constraints>
+                      <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0" ipady="10"/>
+                    </constraints>
+                    <properties>
+                      <font size="14"/>
+                      <hideActionText value="false"/>
+                      <text value="清屏"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <scrollpane id="76612">
+                <constraints border-constraint="Center"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="58809" class="javax.swing.JTextArea" binding="textAreaP1">
+                    <constraints/>
+                    <properties>
+                      <editable value="false"/>
+                      <font size="18"/>
+                      <lineWrap value="true"/>
+                      <text value=""/>
+                      <wrapStyleWord value="true"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+          <grid id="ac754" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <tabbedpane title="输出路线途径站点"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="c085c" layout-manager="GridBagLayout">
+                <constraints border-constraint="West"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="a2554" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0" ipady="20"/>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                      <text value="请选择要查询的路线名"/>
+                    </properties>
+                  </component>
+                  <component id="f6255" class="javax.swing.JButton" binding="btnQueryP2">
+                    <constraints>
+                      <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0" ipady="20"/>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                      <text value="查询"/>
+                    </properties>
+                  </component>
+                  <vspacer id="d3a6b">
+                    <constraints>
+                      <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="1.0"/>
+                    </constraints>
+                  </vspacer>
+                  <vspacer id="a66be">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="1.0"/>
+                    </constraints>
+                  </vspacer>
+                  <vspacer id="efa99">
+                    <constraints>
+                      <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="1.0"/>
+                    </constraints>
+                  </vspacer>
+                  <hspacer id="9dae2">
+                    <constraints>
+                      <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0" ipadx="20"/>
+                    </constraints>
+                  </hspacer>
+                  <hspacer id="e15e9">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0" ipadx="20"/>
+                    </constraints>
+                  </hspacer>
+                  <component id="68bce" class="javax.swing.JComboBox" binding="comboRoute">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0" ipady="20"/>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                      <model/>
+                    </properties>
+                  </component>
+                  <component id="9d57e" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0" ipady="20"/>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                      <text value="请选择开往方向"/>
+                    </properties>
+                  </component>
+                  <grid id="cab0e" layout-manager="GridBagLayout">
+                    <constraints>
+                      <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="e665c" class="javax.swing.JRadioButton" binding="radioTo">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                          <gridbag weightx="0.0" weighty="0.0" ipady="20"/>
+                        </constraints>
+                        <properties>
+                          <font size="18"/>
+                          <text value="RadioButton"/>
+                        </properties>
+                      </component>
+                      <component id="9bf6d" class="javax.swing.JRadioButton" binding="radioFrom">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                          <gridbag weightx="0.0" weighty="0.0" ipady="20"/>
+                        </constraints>
+                        <properties>
+                          <font size="18"/>
+                          <selected value="true"/>
+                          <text value="RadioButton"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <component id="16170" class="javax.swing.JButton" binding="btnClearP2">
+                    <constraints>
+                      <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0" ipady="10"/>
+                    </constraints>
+                    <properties>
+                      <font size="14"/>
+                      <hideActionText value="false"/>
+                      <text value="清屏"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <scrollpane id="9ee5e">
+                <constraints border-constraint="Center"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="de133" class="javax.swing.JTextArea" binding="textAreaP2">
+                    <constraints/>
+                    <properties>
+                      <autoscrolls value="true"/>
+                      <editable value="false"/>
+                      <font size="18"/>
+                      <lineWrap value="true"/>
+                      <margin top="0" left="0" bottom="0" right="0"/>
+                      <tabSize value="4"/>
+                      <text value=""/>
+                      <verifyInputWhenFocusTarget value="true"/>
+                      <wrapStyleWord value="true"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+          <grid id="7db20" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <tabbedpane title="查找最短距离路径"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="ebe41" layout-manager="GridBagLayout">
+                <constraints border-constraint="West"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="1734a" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0" ipady="20"/>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                      <text value="请输入起点名与终点名"/>
+                    </properties>
+                  </component>
+                  <component id="1e17f" class="javax.swing.JButton" binding="btnQueryP3">
+                    <constraints>
+                      <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0" ipady="20"/>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                      <text value="查询"/>
+                    </properties>
+                  </component>
+                  <vspacer id="7a15f">
+                    <constraints>
+                      <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="1.0" ipady="20"/>
+                    </constraints>
+                  </vspacer>
+                  <vspacer id="57fe8">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="1.0"/>
+                    </constraints>
+                  </vspacer>
+                  <vspacer id="1291a">
+                    <constraints>
+                      <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="1.0"/>
+                    </constraints>
+                  </vspacer>
+                  <hspacer id="4dfa">
+                    <constraints>
+                      <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0" ipadx="20"/>
+                    </constraints>
+                  </hspacer>
+                  <hspacer id="24a93">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0" ipadx="20"/>
+                    </constraints>
+                  </hspacer>
+                  <grid id="94a8f" layout-manager="GridBagLayout">
+                    <constraints>
+                      <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="5d505" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                          <gridbag weightx="0.0" weighty="0.0" ipady="20"/>
+                        </constraints>
+                        <properties>
+                          <font size="18"/>
+                          <text value="终点名"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <component id="fef6c" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0" ipady="20"/>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                      <text value="起点名"/>
+                    </properties>
+                  </component>
+                  <component id="1f3d5" class="javax.swing.JTextField" binding="textFromShortest">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0" ipady="20"/>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                    </properties>
+                  </component>
+                  <component id="fe41b" class="javax.swing.JTextField" binding="textToShortest">
+                    <constraints>
+                      <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0" ipady="20"/>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                    </properties>
+                  </component>
+                  <component id="e5ca5" class="javax.swing.JButton" binding="btnClearP3">
+                    <constraints>
+                      <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0" ipady="10"/>
+                    </constraints>
+                    <properties>
+                      <font size="14"/>
+                      <hideActionText value="false"/>
+                      <text value="清屏"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <scrollpane id="d8296">
+                <constraints border-constraint="Center"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="3ffa1" class="javax.swing.JTextArea" binding="textAreaP3">
+                    <constraints/>
+                    <properties>
+                      <autoscrolls value="true"/>
+                      <editable value="false"/>
+                      <font size="18"/>
+                      <lineWrap value="true"/>
+                      <margin top="0" left="0" bottom="0" right="0"/>
+                      <tabSize value="4"/>
+                      <text value=""/>
+                      <verifyInputWhenFocusTarget value="true"/>
+                      <wrapStyleWord value="true"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+          <grid id="4983a" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <tabbedpane title="查找最少换乘路径"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="397e1" layout-manager="GridBagLayout">
+                <constraints border-constraint="West"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="714b4" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0" ipady="20"/>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                      <text value="请输入起点名与终点名"/>
+                    </properties>
+                  </component>
+                  <component id="a5c86" class="javax.swing.JButton" binding="btnQueryP4">
+                    <constraints>
+                      <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0" ipady="20"/>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                      <text value="查询"/>
+                    </properties>
+                  </component>
+                  <vspacer id="4502e">
+                    <constraints>
+                      <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="1.0" ipady="20"/>
+                    </constraints>
+                  </vspacer>
+                  <vspacer id="6c078">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="1.0"/>
+                    </constraints>
+                  </vspacer>
+                  <vspacer id="5fdca">
+                    <constraints>
+                      <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="1.0"/>
+                    </constraints>
+                  </vspacer>
+                  <hspacer id="50a06">
+                    <constraints>
+                      <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0" ipadx="20"/>
+                    </constraints>
+                  </hspacer>
+                  <hspacer id="8c35e">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0" ipadx="20"/>
+                    </constraints>
+                  </hspacer>
+                  <component id="9393b" class="javax.swing.JButton" binding="btnClearP4">
+                    <constraints>
+                      <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0" ipady="10"/>
+                    </constraints>
+                    <properties>
+                      <font size="14"/>
+                      <hideActionText value="false"/>
+                      <text value="清屏"/>
+                    </properties>
+                  </component>
+                  <grid id="b0fd1" layout-manager="GridBagLayout">
+                    <constraints>
+                      <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="417bf" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                          <gridbag weightx="0.0" weighty="0.0" ipady="20"/>
+                        </constraints>
+                        <properties>
+                          <font size="18"/>
+                          <text value="终点名"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <component id="4a9e0" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0" ipady="20"/>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                      <text value="起点名"/>
+                    </properties>
+                  </component>
+                  <component id="18b26" class="javax.swing.JTextField" binding="textFromLeast">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0" ipady="20"/>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                    </properties>
+                  </component>
+                  <component id="55dd" class="javax.swing.JTextField" binding="textToLeast">
+                    <constraints>
+                      <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag weightx="0.0" weighty="0.0" ipady="20"/>
+                    </constraints>
+                    <properties>
+                      <font size="18"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <scrollpane id="1bef9">
+                <constraints border-constraint="Center"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="ade0c" class="javax.swing.JTextArea" binding="textAreaP4">
+                    <constraints/>
+                    <properties>
+                      <autoscrolls value="true"/>
+                      <editable value="false"/>
+                      <font size="18"/>
+                      <lineWrap value="true"/>
+                      <margin top="0" left="0" bottom="0" right="0"/>
+                      <tabSize value="4"/>
+                      <text value=""/>
+                      <verifyInputWhenFocusTarget value="true"/>
+                      <wrapStyleWord value="true"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="buttonGroupDirection">
+      <member id="664d6"/>
+      <member id="552e9"/>
+      <member id="9bf6d"/>
+      <member id="e665c"/>
+    </group>
+  </buttonGroups>
+</form>
