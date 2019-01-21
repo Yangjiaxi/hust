@@ -152,39 +152,39 @@
 
 整体：
 
-![PVZ_UML](/Users/yang/Desktop/OOP/pvz_code_14/docs/PVZ_UML.png)
+![PVZ_UML](docs/PVZ_UML.png)
 
 核心部分：
 
-![Root](/Users/yang/Desktop/OOP/pvz_code_14/docs/UML_Root.png)
+![Root](docs/UML_Root.png)
 
 大图见docs文件夹
 
 ## 2. 用例图
 
-![PVZ_Use_Case_Diagram](/Users/yang/Desktop/OOP/pvz_code_14/docs/PVZ_Use_Case_Diagram.png)
+![PVZ_Use_Case_Diagram](docs/PVZ_Use_Case_Diagram.png)
 
 ### 3. 时序图
 
 I. 更新植物
 
-![时序图_1](/Users/yang/Desktop/OOP/pvz_code_14/docs/时序图_1.png)
+![时序图_1](docs/时序图_1.png)
 
 II. 开始新游戏
 
-![时序图_2](/Users/yang/Desktop/OOP/pvz_code_14/docs/时序图_2.png)
+![时序图_2](docs/时序图_2.png)
 
 III. 向僵尸总HP最少的行添加一个指定的僵尸
 
-![时序图_3](/Users/yang/Desktop/OOP/pvz_code_14/docs/时序图_3.png)
+![时序图_3](docs/时序图_3.png)
 
 IV. 阳光下落
 
-![时序图_4](/Users/yang/Desktop/OOP/pvz_code_14/docs/时序图_4.png)
+![时序图_4](docs/时序图_4.png)
 
 V. 向音频池添加游戏音效
 
-![时序图_5](/Users/yang/Desktop/OOP/pvz_code_14/docs/时序图_5.png)
+![时序图_5](docs/时序图_5.png)
 
 ## 三、项目完成情况
 
