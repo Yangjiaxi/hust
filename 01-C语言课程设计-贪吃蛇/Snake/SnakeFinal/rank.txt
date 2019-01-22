@@ -1,0 +1,4 @@
+Snake Rank File
+#01 [不愿意透露姓名的] 119
+#02 [不愿意透露姓名的] 12
+@END OF FILE

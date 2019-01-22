@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/list.ico</file>
+        <file>images/swot.ico</file>
+        <file>images/save.png</file>
+        <file>images/import.png</file>
+        <file>images/save_b.png</file>
+        <file>images/import_b.png</file>
+        <file>images/list.png</file>
+    </qresource>
+</RCC>
